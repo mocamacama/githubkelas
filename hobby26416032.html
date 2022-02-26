@@ -1,13 +1,123 @@
 <html>
+<head>
+    <link href="bootstrap.min.css" rel="stylesheet">
 
+    <style type="text/css">
+        body {
+            font-family: "Poppins",Arial,sans-serif;
+            background: #fff;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 400;
+            color: #000;
+        }
+
+        .font-lg {
+            font-size: 40px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .font-lg:after {
+            content: '';
+            width: 410px;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            left: 23%;
+            background: #000000;
+        }
+
+        .font-md {
+            margin-top: 20px;
+            font-size: 70px;
+            line-height: 60px;
+            margin-bottom: 25px;
+        }
+
+        .font-sm {
+            font-size: 24px;
+            margin-bottom: 35px;
+        }
+
+        .custom-btn {
+            display: inline-block;
+            color: #fff;
+            letter-spacing: 0px;
+            font-family: "Rubik", sans-serif;
+            font-weight: 500;
+            line-height: 46px;
+            outline: none !important;
+            text-align: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            border-radius: 5px;
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+            border: double 2px transparent;
+            box-shadow: 0px 10px 30px rgb(118 85 225 / 30%);
+        }
+
+        .custom-btn span {
+            padding: 0 42px;
+        }
+    </style>
+</head>
 <body>
-    <div style="text-align: center;">
-        <h1>Hobby 26416032</h1>
-        <h2>- Makan</h2>
-        <h2>- Main</h2>
-        <h2>- Tidur</h2>
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col col-md-6">
+                <div class="row">
+                    <div class="col col-md-12">
+                        <h2 class="text-uppercase font-lg">HELLO</h2>
+                        <h1 class="text-uppercase font-md">I AM ROMARIO</h1>
+                        <!-- <h3 class="text-uppercase font-sm">YOUR MAJOR</h3> -->
+                    </div>
+
+                    <!-- <div class="col col-md-12">
+                        <a href="#" class="btn btn-primary custom-btn"><span>More About Me</span></a>
+                    </div> -->
+                </div>
+              
+            </div>
+            <div class="col col-md-6">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Hobby 1</h5>
+                            <p class="card-text">Makan</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-6">
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Hobby 2</h5>
+                            <p class="card-text">Main.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <br>    
+                <div clas="row">
+                    <div class="col col-md-12">
+                        <div class="card" style="width: 39rem; text-align: center;">
+                          <div class="card-body">
+                            <h5 class="card-title">Hobby UTAMA</h5>
+                            <p class="card-text">Tidoor.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
-
 </body>
-
 </html>
